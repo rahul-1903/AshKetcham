@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, sans-serif, monospace, cursive;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    padding-top: 20p;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+ul{
+    float: right;
+    padding-top: 10px;
+}
+header{
+    background: #222;
+    overflow: auto;
+    margin: auto;
+    border-bottom: 4px solid orange;
+}
+header h1{
+    color: white;
+    float: left;
+}
+span{
+    color:orange;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+#banner img{
+    width: 100%;
+    height: 500px;
+}
+
+#intro{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    color: white;
+}
+#intro h1{
+    font-size: 64px;
+    margin-bottom: 0px;
+}
+
+.box{
+    padding-left: 50px;
+    height: 400px;
+    width: 390px;
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.box img{
+    height: 200px;
+    width: 200px;
+    padding-left: 89px;
+    
+}
+.box p{
+    text-align: center;
+}
+
+a:hover{
+    color: white;
+}
+a:active{
+    color: orange;
+}
+
+ul{
+    float: right;
+}
+#title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#events div p{
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 30px;
+    background: black;
+    font-weight: bold;
+    color: orange;
+    padding: 25px;
+}
+
+
